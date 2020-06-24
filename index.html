@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> RPG game </title>
+        <style>
+            #gameScreen{
+                width: 1280;
+                height: 640;
+                border: 1px solid black;
+            }
+            img{
+                display: none;
+            }
+            body{
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body id="body">
+        <img id="s_PlayerFront" src="sprites/player/player-idle-front.png">
+        <img id="s_PlayerBack" src="sprites/player/player-idle-back.png">
+        <img id="s_PlayerRight" src="sprites/player/player-idle-right.png">
+        <img id="s_PlayerLeft" src="sprites/player/player-idle-left.png">
+
+        <img id="s_PlayerWalkRight1" src="sprites/player/wRight/hero-walk-side-1.png">
+        <img id="s_PlayerWalkRight2" src="sprites/player/wRight/hero-walk-side-2.png">
+        <img id="s_PlayerWalkRight3" src="sprites/player/wRight/hero-walk-side-3.png">
+        <img id="s_PlayerWalkRight4" src="sprites/player/wRight/hero-walk-side-4.png">
+        <img id="s_PlayerWalkRight5" src="sprites/player/wRight/hero-walk-side-5.png">
+        <img id="s_PlayerWalkRight6" src="sprites/player/wRight/hero-walk-side-6.png">
+
+        <img id="s_PlayerWalkingLeft1" src="sprites/player/wLeft/hero-walk-side-1.png">
+        <img id="s_PlayerWalkingLeft2" src="sprites/player/wLeft/hero-walk-side-2.png">
+        <img id="s_PlayerWalkingLeft3" src="sprites/player/wLeft/hero-walk-side-3.png">
+        <img id="s_PlayerWalkingLeft4" src="sprites/player/wLeft/hero-walk-side-4.png">
+        <img id="s_PlayerWalkingLeft5" src="sprites/player/wLeft/hero-walk-side-5.png">
+        <img id="s_PlayerWalkingLeft6" src="sprites/player/wLeft/hero-walk-side-6.png">
+
+        <img id="s_PlayerWalkingUp1" src="sprites/player/wUp/hero-walk-back-1.png">
+        <img id="s_PlayerWalkingUp2" src="sprites/player/wUp/hero-walk-back-2.png">
+        <img id="s_PlayerWalkingUp3" src="sprites/player/wUp/hero-walk-back-3.png">
+        <img id="s_PlayerWalkingUp4" src="sprites/player/wUp/hero-walk-back-4.png">
+        <img id="s_PlayerWalkingUp5" src="sprites/player/wUp/hero-walk-back-5.png">
+        <img id="s_PlayerWalkingUp6" src="sprites/player/wUp/hero-walk-back-6.png">
+
+        <img id="s_PlayerWalkingDown1" src="sprites/player/wDown/hero-walk-front-1.png">
+        <img id="s_PlayerWalkingDown2" src="sprites/player/wDown/hero-walk-front-2.png">
+        <img id="s_PlayerWalkingDown3" src="sprites/player/wDown/hero-walk-front-3.png">
+        <img id="s_PlayerWalkingDown4" src="sprites/player/wDown/hero-walk-front-4.png">
+        <img id="s_PlayerWalkingDown5" src="sprites/player/wDown/hero-walk-front-5.png">
+        <img id="s_PlayerWalkingDown6" src="sprites/player/wDown/hero-walk-front-6.png">
+
+        <img id="m_Path_Cross" src="sprites/map/path_cross.png">
+        <img id="m_Grass" src="sprites/map/grass.png">
+        <img id="m_TEST" src="sprites/map/jhdsbfjdhb MAP.png">
+
+        <canvas id="gameScreen" width="1280" height="640"></canvas>
+
+        <script type="module" src="js/index.js"></script>
+        <script type="module" src="js/player.js"></script>
+        <script type="module" src="js/input.js"></script>
+    </body>
+</html>
